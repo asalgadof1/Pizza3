@@ -1,0 +1,133 @@
+#root {
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+ text-align: center;
+}
+
+/* Estilos para el Navbar */
+.navbar {
+  width: 100%; /* Asegura que ocupe el 100% del ancho de la pantalla */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa; /* Fondo claro */
+  padding: 10px 20px; /* Espaciado interno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+  position: fixed; /* Fija el Navbar en la parte superior */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  margin-bottom: 10px;
+  
+}
+
+/* Estilos NavBar*/
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px; /* Espacio entre enlaces */
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Elimina padding */
+}
+
+.navbar .nav-links li {
+  display: inline;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #007bff; /* Color del texto */
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: left;
+}
+
+.navbar .nav-links a:hover {
+  color: #0056b3; /* Color al pasar el mouse */
+}
+
+.navbar .total {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff; /* Color del texto */
+  display: flex;
+  align-items: center;
+}
+
+.navbar .cart-icon {
+  margin-right: 8px;
+  font-size: 20px; /* Tamaño del ícono del carrito */
+  vertical-align: middle;
+}
+
+.navbar .total span {
+  color: #28a745; /* Color para el total */
+}
+
+
+/*Estilos CardPizza*/
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Estilos Cart*/
+.card-img-top {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.card-text {
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  width: 40px;
+}
+
+.text-end h2 {
+  color: #28a745;
+}
+
