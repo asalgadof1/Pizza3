@@ -1,7 +1,5 @@
 // Cart.jsx
 
-
-
 import { useState } from 'react'
 import { pizzaCart } from '../assets/Data/pizzas'
 
